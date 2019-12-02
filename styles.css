@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+	font-family: 'Tomorrow', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Tomorrow', sans-serif;
+  background-image: url("images/waves.jpg");
+  background-repeat: none;
+  text-align: center;
+}
+h1{
+	font-size: 48px;
+	text-align: center;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 20px;
+}
+p{
+	font-size: 16px;
+}
+.title{
+	background: rgb(48,100,252);
+	background: linear-gradient(90deg, rgba(48,100,252,1) 0%, rgba(35,219,5,1) 50%, rgba(48,100,252,1) 100%);
+	margin-right: 10em;
+	margin-left: 10em;
+	margin-top: 1em;
+	border-radius: 50px;
+	
+}
+.topnav {
+  overflow: hidden;
+  background-color: #0856ff;
+  padding-left: 2em;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.topnav a:hover {
+  background-color: #0bbd20;
+  color: black;
+  
+}
+.topnav a:visited{
+	background-color: yellow;
+}
+.content {
+	background-color: #1bf5db;
+	padding: 10px 4em 4em;
+	margin-top: 1em; 
+	margin-right: 10em;
+	margin-left: 10em;
+	margin-bottom: 1em;
+}
+.left{
+	display: flex;
+	justify-content: left;
+	text-align: center;
+}
+.right{
+	display: flex;
+	justify-content: right;
+	text-align: center;
+}
+.center{
+	display:flex;
+	justify-content: center;
+	text-align: center;
+}
+.image{
+	text-align: left;
+	padding: 1em;
+	height: 800px;
+}
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  
+}
